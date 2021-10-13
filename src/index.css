@@ -1,13 +1,63 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.service{
+ 
+  background-color: #F7F7F7;
+}
+
+
+.conten{
+    border-bottom: 2px solid rgba(85,85,85,.2);
+    margin-bottom: 34px;
+    margin-top: 1px;
+}
+
+
+.FeedBack {
+  padding: 6rem;
+  background: url(bg.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text1 p {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.text1 {
+  margin-bottom: 66px !important;
+  /* text-align: center; */
+}
+
+.text1 h6 {
+  font-size: 12px;
+ 
+}
+
+.testimonials{
+  display:none
+}
+
+.nav-link:hover{
+  color: rgb(235, 27, 27)
+}
+
+.ef:hover{
+  color: rgb(25, 7, 182);
+  transition: 0.3s;
+  cursor: pointer
+}
+
+
+.card:hover {
+  transition: 0.3s;
+  transform: scale(0.9);
 }

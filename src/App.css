@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+.navbarr{
+  width: 200px;
+  height: 300rem;
+  background-color: #111111;
+  padding: 3rem;
+  position: fixed;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navContent{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navContent img {
+     width: 100%;
+    border: 4px solid #484848;
+    border-radius: 50% !important;
+}
+
+
+.navContent span {
+  color: #fff;
+   display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px
+}
+
+.navContent p {
+  color: #8a8a8a;
+  font-size: 13px;
+}
+
+.nav-link{
+  color: rgba(232,232,232,.95);
+    font-size: 17px;
+    margin-bottom:9px ;
+    line-height: 100%;
+    
+}
+
+
+.section-wrapper {
+  padding-left: 200px;
+}
+
+.home {
+  background: linear-gradient(45deg, #0000006e, #00000057),url(https://www.khaliddev.com/images/header-background.jpg);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-name{
+  color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    margin-bottom: 29px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home-name span {
+  color: #dc3545;
+}
+
+.acontent h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.content-book h2 {
+  color:#dc3545;
+  font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-book h6 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+
+}
+
+.content-book p {
+  line-height: 37px;
+}
+
+
+.aimg{
+  width: 440px;
+    height: 29rem;
+    border: 2px solid #0000007a;
+}
+
+
+.aa span {
+  color: #333;
+  font-weight: 600;
+  margin-right: 10px;
+} 
+
+.aa p {
+  display: inline-block;
+}
+
+
+.content-book {
+  border-bottom: 2px solid #adabac63;
+  margin-bottom: 33px;
+}
+
+.card i{
+  font-size: 47px;
+    color: #d20f0f;
+}
+
+
+
+.Work {
+  padding: 40px;
+  background: linear-gradient(45deg, #584d4da6, #040404d9);
+}
+
+.container.row {
+  align-items: center;
+}
+
+footer{
+  background: #111111;
+  color: #fff;
+  padding:3rem;
+  border-left: 1px solid rgba(255,255,255,.08);
+}
+
+
+.contact{
+  background-color: #F7F7F7;
+  padding-top: 45px !important;
+}
+
+
+.n-2{
+  display: none;
+}
+
+
+.wrapper {
+  display: inline-flex;
+  font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.static-txt {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+ul.dynamic-text li {
+  list-style: none;
+  position:relative;
+  top:0;
+  animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide{
+  100%{
+    top:-265px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+ul.dynamic-text li {
+  font-size: 24px;
+  color: #fc6d6d;
+}
+
+ul.dynamic-text li span:after {content: "";position: absolute;height: 7%;border-left: 2px solid;left: 48rem;
+  background-color: #535353;
+  width: 150px;
+  animation: typing 1.5s steps(10) infinite;}
+
+
+
+@keyframes typing{
+    100%{
+      right: 100%;
+      margin: 0 -35px 0 100px;
+    }
+}
+
+
+.footer-content i {
+  color: #dc3545;
+  margin-bottom: 24px;
+  font-size: 38px;
+}
+
+
+.footer-content p {
+  color: #dcdcdc;
+}
+
+.custom-btn{
+  padding: 7px 57px;
+    margin: auto !important;
+    text-align: center;
+    border: none;
+    background: #ff123d;
+    border-radius: 22px;
+}
+
+body{
+background:#F7F7F7
+
 }
