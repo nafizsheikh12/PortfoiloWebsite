@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PortfoiloWebsite/static/css/main.8bf740e8.chunk.css",
+    "main.js": "/PortfoiloWebsite/static/js/main.a47870e2.chunk.js",
+    "main.js.map": "/PortfoiloWebsite/static/js/main.a47870e2.chunk.js.map",
+    "runtime-main.js": "/PortfoiloWebsite/static/js/runtime-main.64e0e378.js",
+    "runtime-main.js.map": "/PortfoiloWebsite/static/js/runtime-main.64e0e378.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/PortfoiloWebsite/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.e7a4f492.chunk.js": "/PortfoiloWebsite/static/js/2.e7a4f492.chunk.js",
+    "static/js/2.e7a4f492.chunk.js.map": "/PortfoiloWebsite/static/js/2.e7a4f492.chunk.js.map",
+    "index.html": "/PortfoiloWebsite/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/PortfoiloWebsite/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.8bf740e8.chunk.css.map": "/PortfoiloWebsite/static/css/main.8bf740e8.chunk.css.map",
+    "static/js/2.e7a4f492.chunk.js.LICENSE.txt": "/PortfoiloWebsite/static/js/2.e7a4f492.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/PortfoiloWebsite/static/media/bg.5251430a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64e0e378.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.e7a4f492.chunk.js",
+    "static/css/main.8bf740e8.chunk.css",
+    "static/js/main.a47870e2.chunk.js"
+  ]
+}
