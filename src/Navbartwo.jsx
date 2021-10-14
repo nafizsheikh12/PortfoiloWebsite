@@ -3,14 +3,14 @@ import React,{useState} from 'react'
 const Navbartwo = () => {
         const [click,setclick] = useState('')
         const handleClick = () => {
-                click ? setclick('') : setclick('unshow')
+                click ? setclick('') : setclick('dropitem w-25')
         }
 
  return <>
          <div className="n-2 bg-dark p-2">
                  <button className="btn btn-dark nav-btn" onClick={() => handleClick()}>Menu</button>
 
-                 <div className={click || 'dropitem w-25'} >
+                 <div className={click || 'unshow'} >
                        <div className="item">      
                           <ul className="list-unstyled list-menu mt-3">
                               <li><a className="nav-link" href="#home">Home</a></li>
