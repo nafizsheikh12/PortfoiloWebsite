@@ -1,0 +1,76 @@
+.projectmaindiv{
+    background: url(pp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden
+}
+a{
+    text-decoration: none;
+}
+.cardp{
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    color: #fff;
+}
+
+.projectp.mb-5.pt-5 h2 {
+    font-size: 38px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.cardp-title {
+    margin-bottom: 53px;
+}
+
+.card-web {
+    text-decoration: none !important;
+    color: #cccccc;
+}
+
+.cardp:hover  {
+    background:url(img/metablog.png) !important;
+    color:black !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+}
+
+.whatsapp:hover {
+    background:url(img/whatsappclone.png)  !important;
+    color:black !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+}
+
+.flipkart:hover {
+    background:url(img/flipkart.png)  !important;
+    color:black !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+}
+
+.brigate:hover {
+    background:url(img/brigate.png)  !important;
+    color:black !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+}
+
+
+button.btn.btn-success.githubbtn {
+    margin: auto;
+    display: flex;
+    margin-bottom: 24px;
+    background: #5ed665;
+    color: #000;
+    border-color: #68d854;
+    padding: 9px 28px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.githubbtn a{
+    color:#000 !important
+}

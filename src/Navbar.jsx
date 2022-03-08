@@ -9,7 +9,7 @@ import Service from './component/Appservice'
        
             <div className="navbarr">
                 <div className="navContent">
-                    <img src="../img/1.jpg" className="rounded"/>
+                    <img src="img/pro.jpg" className="rounded"/>
                     <span className="mt-3">Nafiz Sheikh</span>
                     <p>Available for work</p>
                 </div>
@@ -18,9 +18,8 @@ import Service from './component/Appservice'
                     <li>  <a className="nav-link"  href="#home">Home</a> </li> 
                     <li><a className="nav-link" href="#about">About</a></li>
                     <li><a className="nav-link" href="#service">Services</a></li>
-                    <li><a className="nav-link">Portfoilo</a></li>
+                    <li><a className="nav-link" href=".projectp" >Project</a></li>
                     <li><a className="nav-link" href="#client">Clients</a></li>
-                    <li><a className="nav-link">Blog</a></li>
                     <li><a className="nav-link" href="#contact">Contact</a></li>
                 </ul>
                </div> 

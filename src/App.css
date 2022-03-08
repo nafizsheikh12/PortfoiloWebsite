@@ -49,7 +49,7 @@
 }
 
 .home {
-  background: linear-gradient(45deg, #0000006e, #00000057),url(https://www.khaliddev.com/images/header-background.jpg);
+  background: linear-gradient(45deg, #0000006e, #00000057),url(component/img/contact.jpg);
   height: 100vh;
   display: flex;
   background-size: cover;
